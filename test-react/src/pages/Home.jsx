@@ -1,13 +1,14 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
+import frog from './froge.png';
 import './App.css';
 
-function App() {
+function Home() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={frog} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Rinzler
         </p>
         <a
           className="App-link"
@@ -22,4 +23,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;
