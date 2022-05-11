@@ -1,4 +1,4 @@
-function page2(){
+function Page2(){
     return(
         <div>
             <h1>Deuxième page</h1>
@@ -6,4 +6,4 @@ function page2(){
     )
 }
 
-export default page2
+export default Page2
