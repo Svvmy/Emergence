@@ -1,9 +1,9 @@
-//import logo from './logo.svg';
-import frog from './froge.png';
-import './App.css';
+import React from 'react';
+//import '.src/App.css'
+import frog from './utils/froge.png'
 
-function Home() {
-  return (
+export default function Home (){
+    return(
     <div className="App">
       <header className="App-header">
         <img src={frog} className="App-logo" alt="logo" />
@@ -20,7 +20,5 @@ function Home() {
         </a>
       </header>
     </div>
-  );
+    )
 }
-
-export default Home;
