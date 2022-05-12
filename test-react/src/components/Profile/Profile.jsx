@@ -9,6 +9,7 @@ export default function Profile (){
                <Link to="/profil/:id/post">Posts</Link>
                <Link to="/profil/:id/experience">Expériences</Link>
                <Link to="/profil/:id/projet">projets</Link>
+               <Link to="/profil/:id/messagerie">Messagerie</Link>
            </nav>
            <Outlet />   
         </div>

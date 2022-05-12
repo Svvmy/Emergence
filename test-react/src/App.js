@@ -6,7 +6,7 @@ import Navbar from './components/Navbar/Navbar'
 import Post from './components/Profile/Posts/Posts'
 import Experience from './components/Profile/Experiences/Experiences'
 import Projet from './components/Profile/Projets/Projets'
-import Test from './page2'
+import Messagerie from './components/Profile/Messagerie/Messagerie'
 
 
 export default function App() {
@@ -19,8 +19,8 @@ export default function App() {
           <Route path ="/profil/:id/post" element ={<Post />} />
           <Route path ="/profil/:id/experience" element ={<Experience />} />
           <Route path ="/profil/:id/projet" element ={<Projet />} />
+          <Route path ="/profil/:id/messagerie" element ={<Messagerie />} />
         </Route>     
-        <Route path ="/test" element ={<Test />} /> 
       </Routes>
     </div>
   );
