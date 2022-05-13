@@ -1,6 +1,6 @@
 import React from 'react';
 //import '.src/App.css'
-import frog from './utils/froge.png'
+import frog from './utils/frogBlblbl.gif'
 import {Link, Outlet} from 'react-router-dom';
 
 export default function Home (){

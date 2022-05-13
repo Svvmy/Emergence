@@ -5,7 +5,7 @@ import React from 'react';
 export default function Projets(){
     return (
         <div>
-            <h1>Projets</h1>
+            <h1>Vos projets</h1>
         </div>
     )
 }
