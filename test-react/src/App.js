@@ -1,6 +1,6 @@
 import './App.css'
 import {Routes, Route} from "react-router-dom"
-import Home from './components/Home/Home'
+import Accueil from './components/Home/Accueil'
 import Profile from './components/Profile/Profile'
 import Navbar from './components/Navbar/Navbar'
 import Post from './components/Profile/Posts/Posts'
@@ -14,7 +14,7 @@ export default function App() {
     <div className='App'>
       <Navbar />
       <Routes>
-        <Route path ="/" element ={<Home />} />
+        <Route path ="/" element ={<Accueil />} />
         <Route path ="/profil/:id" element ={<Profile />}>
           <Route path ="/profil/:id/post" element ={<Post />} />
           <Route path ="/profil/:id/experience" element ={<Experience />} />

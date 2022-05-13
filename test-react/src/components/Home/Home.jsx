@@ -1,6 +1,7 @@
 import React from 'react';
 //import '.src/App.css'
-import frog from './utils/froge.png'
+import frog from './utils/frogBlblbl.gif'
+import {Link, Outlet} from 'react-router-dom';
 
 export default function Home (){
     return(
@@ -10,6 +11,7 @@ export default function Home (){
         <p>
           Rinzler
         </p>
+        <p>Connecté</p>
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -18,6 +20,10 @@ export default function Home (){
         >
           Learn React
         </a>
+        <nav>
+            <Link to="/profil/:id">Profile</Link>
+        </nav>
+        <Outlet />
       </header>
     </div>
     )

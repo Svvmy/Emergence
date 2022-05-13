@@ -7,6 +7,7 @@ export default function Navbar(){
         <nav>
             <Link to="/">Accueil  </Link>
             <Link to="/profil/:id">Profil</Link>
+            <Link to="/project">Projet</Link>
         </nav>
     )
 }
